@@ -9,8 +9,8 @@
     <style>
         body {
             margin: 0;
-            font-family: 'Baloo 2', cursive;
-            background: linear-gradient(to bottom, #87CEEB, #fff);
+            font-family: 'Baloo 2';
+            background: linear-gradient(to bottom, #fff, #00b7ff);
             background-attachment: fixed;
             background-size: cover;
             height: 100vh;
@@ -22,12 +22,12 @@
             position: relative;
         }
         h1 {
-            font-size: 4em;
+            font-size: 9em;
             margin: 0;
-            background: linear-gradient(45deg, #FF8C00, #FF8C00);
+            background: linear-gradient(45deg, #ff2222, #ff0b0b);
             -webkit-background-clip: text;
             color: transparent;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            text-shadow: 2px 2px 5px rgb(255, 145, 0);
             animation: bounce 2s infinite;
         }
         @keyframes bounce {
@@ -55,12 +55,14 @@
             z-index: 1;
         }
         .button {
-            background-color: #FFA500;
-            color: white;
+            
+            background: linear-gradient(45deg, #ff2222, rgb(255, 145, 0));
+            
+            color:#ffffff;
             padding: 10px 20px;
-            font-size: 1.4em;
+            font-size: 2.5em;
             border: none;
-            border-radius: 40px;
+            border-radius: 10px;
             cursor: pointer;
             margin-top: 20px;
             text-decoration: none;
@@ -68,13 +70,16 @@
         .button:hover {
             background-color: #FF8C00;
         }
+        .h2{
+            font-size: 2.5em;
+        }
     </style>
 </head>
 <body>
     <div class="clouds"></div>
     <div class="content">
         <h1>PolloLandia</h1>
-        <p>¡El mejor lugar para llevar tus pechugas!</p>
+        <h2>¡El mejor lugar para llevar tus pechugas!</h2>
         <br>
         <a href="menu.html" class="button">Entrar</a>
         <br>
