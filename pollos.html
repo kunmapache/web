@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolloLandia</title>
+    <!-- Enlace de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Baloo 2', cursive;
+            background: linear-gradient(to bottom, #87CEEB, #fff);
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            background: linear-gradient(45deg, #FF8C00, #FF8C00);
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+        .clouds {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/cloudy-day.png') repeat;
+            opacity: 0.7;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .button {
+            background-color: #FFA500;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.4em;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #FF8C00;
+        }
+    </style>
+</head>
+<body>
+    <div class="clouds"></div>
+    <div class="content">
+        <h1>PolloLandia</h1>
+        <p>¡El mejor lugar para llevar tus pechugas!</p>
+        <br>
+        <a href="menu.html" class="button">Entrar</a>
+        <br>
+        
+    </div>
+    <div class="video-container">
+        <video src="pollollon.mp4" autoplay loop muted></video>
+    </div>
+</body>
+</html>
+

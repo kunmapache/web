@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de PolloLandia</title>
+    <!-- Enlace de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Baloo 2', cursive;
+            background: linear-gradient(to bottom, #87CEEB, #fff);
+            background-attachment: fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            padding-bottom: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+            background: linear-gradient(45deg, #FF4500, #FFA500);
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .clouds {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.transparenttextures.com/patterns/cloudy-day.png') repeat;
+            opacity: 0.7;
+        }
+        .menu {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .menu-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .menu-item h2 {
+            margin: 10px 0;
+            color: #FF4500;
+        }
+        .menu-item p {
+            color: #333;
+            margin: 10px;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menú de PolloLandia</h1>
+    <br>
+    <div class="clouds"></div>
+    <div class="menu">
+        
+        <div class="menu-item">
+            <img src="pollo.png" alt="Pollon #1">
+            <h2>Pollon #1</h2>
+            <p>Delicioso pollo asado con arroz, tortillas y salsas.</p>
+            <p class="price">175$</p>
+        </div>
+        <div class="menu-item">
+            <img src="pollodos.webp" alt="Pollon #2">
+            <h2>Pollon #2</h2>
+            <p>Delicioso 1 + 1/2 pollo asado con arroz, tortillas y salsas.</p>
+            <p class="price">210$</p>
+        </div>
+        <div class="menu-item">
+            <img src="pollopapa.png" alt="Pollon #3">
+            <h2>Pollon #3</h2>
+            <p>Deliciosos 2 pollos asados con 1 kg de arroz, tortillas y salsas + papas fritas  </p>
+            <p class="price">275$</p>
+        </div>
+          <div class="menu-item">
+            <img src="bonle.png" alt="Pollon #4">
+            <h2>Pollon #4</h2>
+            <p>Boneless 250g incluye salsa BBQ o Buffalo y verdura + refresco 600 ml </p>
+            <p class="price">115$</p>
+        </div>
+        <div class="menu-item">
+            <img src="nuget.webp" alt="Pollon #5">
+            <h2>Pollon #5</h2>
+            <p>Deliciosas nuggets con papas a la francesa</p>
+            <p class="price">75$</p>
+        </div>
+        <div class="menu-item">
+            <img src="ham.png" alt="Pollon #6">
+            <h2>Pollon #6</h2>
+            <p>hamburguesa con pollo frito sencilla + referesco de 600ml</p>
+            <p class="price">85$</p>
+        </div>
+        <div class="menu-item">
+            <img src="combo.jpg" alt="Pollollon #7">
+            <h2>Pollollon #7</h2>
+            <p>Deliciosos 2 pollos familiares asados con arroz, tortillas, salsas, sopa fria, papas fritas + refresco 2L .</p>
+            <p class="price">410$</p>
+        </div>
+        <div class="menu-item">
+            <img src="refresco.jpg" alt="Pollon #9">
+            <h2>Pollon #9</h2>
+            <p>Refresco de 600 ml, sabor a elegir: cocacola, sprite, manzanita, uva, etc.</p>
+            <p class="price">20$</p>
+        </div>
+        
